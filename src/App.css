@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+:root
+{
+    --Color-h3: #212121;
+    --Color-Fondo-Programacion: #D9F7E9;
+    --Color-Destaques-Programacion: #57C278;
+    --Color-Fondo-FrontEnd: #E8F8FF;
+    --Color-Destaques-FrontEnd: #82CFFA;
+    --Color-Fondo-DataScience: #F0F8E2;
+    --Color-Destaques-DataScience: #A6D157;
+    --Color-Fondo-Devops: #FDE7E8;
+    --Color-Destaques-Devops: #E06B69;
+    --Color-Fondo-UXyDiseño: #FAE9F5;
+    --Color-Destaques-UXyDiseño: #DB6EBF;
+    --Color-Fondo-Móvil: #FFF5D9;
+    --Color-Destaques-Móvil: #FFBA05;
+    --Color-Fondo-InnovaciónyGestión: #FFEEDF;
+    --Color-Destaques-InnovaciónyGestión: #FF8A29;
+}
+.orgSection
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title
+{
+    color: #6278f7;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    border-bottom: 4px solid #6278f7;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.orgSection img 
+{
+    position: absolute;
+    right: 30%;
+    cursor: pointer;
 }
